@@ -506,6 +506,7 @@ $Wait2,SET,LastDir,$Direction,,,,,,
 0,GasterBlaster,0,$X2,$Y2,$EndX2,$EndY2,$Ang2,0.4,0
 0,GasterBlaster,0,$X1,$Y1,$EndX1,$EndY1,$Ang1,0.4,0
 0,GasterBlaster,0,$X,$Y,$EndX,$EndY,$Ang,0.4,0
+2,EndAttack,,
 0,ADD,gt,$gt,$gin,,,,,
 0,JMPNL,158,$gin,1.7,,,,,
 0,ADD,gin,$gin,0.15,,,,,
@@ -563,6 +564,7 @@ $Wait2,SET,LastDir,$Direction,,,,,,
 0,ADD,Ang3,$Ang3,180,,,,,
 
 2,endattack,,,,,,,,
+
 
 
 
