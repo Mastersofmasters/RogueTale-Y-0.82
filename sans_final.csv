@@ -459,9 +459,17 @@ $Wait2,SET,LastDir,$Direction,,,,,,
 0,HeartMode,0,,,,,,,
 0,SansText, Fine You      WIN,,,
 0,SansText, I GuESS..,,,
+0,CombatZoneResizeInstant,280,210,370,290,,,,,,
+0,HeartTeleport,325,250,,,,,,,,
+0,DamagePlayer,-40,,,,,,,,,
+0.5,GasterBlaster,1,100,0,$HeartX,150,90,5,2,,
+0,GetHeartPos,HeartX,HeartY,,,,,,,,
+0,ADD,EndX,$EndX,$HeartX,,,,,,,
+0,SansText,SIKE,,,,,,,,,
 0,SansHead,LookLeft,,,
 0,SansBody,Shrug,,,
-3,endattack,,,,,,,,
+0.3,endattack,,,,,,,,
+
 
 
 
