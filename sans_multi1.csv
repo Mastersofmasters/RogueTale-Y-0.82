@@ -104,5 +104,6 @@
 0,CombatZoneResizeInstant,33,251,608,391,,,
 0.828,GasterBlaster,2,550,0,550,340,90,0.207,0.414
 0.828,MercyXY,666,666	
-0,EndAttack,,,,,,,
+0.5,EndAttack,,,,,,,
+
 
